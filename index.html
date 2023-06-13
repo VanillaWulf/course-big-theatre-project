@@ -9,6 +9,84 @@
     <title>Document</title>
 </head>
 <body>
-<h2>text</h2>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a class="header__nav-link">Главная</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">о театре</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Наши постановки</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">партнеры театра</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">контакты</a></li>
+            </ul>
+        </nav>
+        <a class="header__tel" href="tel:+7 495 123-45-67">+7 495 123-45-67</a>
+        <h1 class="header__title">Большой театр</h1>
+        <p class="desc">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
+        <a class="header__link-poster" href="#">афиша</a>
+        <img src="" alt="большой театр">
+        <button type="button">Пред</button>
+        <button type="button">след</button>
+    </header>
+    <main>
+        <section class="about">
+            <h2 class="about__title section-title">о театре</h2>
+            <div class="about__wrp">
+                <div class="about__item">
+                    <h3 class="about__subtitle">Самый лучший театр СПБ</h3>
+                    <p class="about__desc">Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
+                </div>
+                <div class="about__item">
+                    <h3 class="about__subtitle">немного о цифрах</h3>
+                    <ul class="about__digits digits">
+                        <li class="digits__item">
+                            <p class="digits__desc">1600 посадочный мест</p>
+                        </li>
+                        <li class="digits__item">
+                            <p class="digits__desc">350 лет истории</p>
+                        </li>
+                    </ul>
+                </div>
+                <img src="" alt="photo">
+            </div>
+        </section>
+        <section class="">
+            homework
+        </section>
+        <section class="">
+            homework
+        </section>
+        <section class="">
+            <h2>партнеры театра</h2>
+            homework
+            <button>Стать меценатом</button>
+        </section>
+    </main>
+    <footer class="footer">
+        homework
+    </footer>
+    <div class="popup">
+        <button class="popup__close-btn" type="button">x</button>
+        <form class="popup__form" action="#">
+            <label class="popup__label">
+                <span>Имя</span>
+                <input class="popup__input-field" type="text" placeholder="Имя">
+            </label>
+            <label class="popup__label">
+                <span>Компания</span>
+                <input class="popup__input-field" type="text" placeholder="Компания">
+            </label>
+            <label class="popup__label">
+                <span>Телефон</span>
+                <input class="popup__input-field" type="tel" placeholder="Телефон">
+            </label>
+            <label class="popup__label">
+                <span>E-mail</span>
+                <input class="popup__input-field" type="email" placeholder="E-mail">
+            </label>
+            <textarea class="popup__input-field popup__input-field--textarea" placeholder="Сообщение"/>
+            <p class="popup__hint">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+            <button class="popup__button button">отправить</button>
+        </form>
+    </div>
 </body>
 </html>

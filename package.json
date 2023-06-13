@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "no test",
-    "css": "gulp css"
+    "css": "gulp css",
+    "start": "gulp server"
   },
   "repository": {
     "type": "git",

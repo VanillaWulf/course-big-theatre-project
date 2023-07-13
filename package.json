@@ -6,7 +6,9 @@
   "scripts": {
     "test": "no test",
     "css": "gulp css",
-    "start": "gulp server"
+    "start": "gulp start",
+    "server": "gulp server",
+    "img": "gulp img"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
     "sass": "^1.62.1"
   },
   "dependencies": {

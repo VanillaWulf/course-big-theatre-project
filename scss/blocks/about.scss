@@ -1,0 +1,21 @@
+.about {
+  .about__subtitle {
+    text-transform: uppercase;
+    @include font-mixin(21px, 28px);
+  }
+
+  .about__desc {
+    font-family: $font-family;
+    @include font-mixin($line-height-param: 24px, $font-weight-param: 300);
+  }
+
+  .about__subtitle {
+    text-transform: uppercase;
+    @include font-mixin(21px, 26px);
+  }
+
+  .digits__desc-orange {
+    color: $gold;
+  }
+
+}

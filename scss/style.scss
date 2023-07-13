@@ -1,10 +1,18 @@
-$primary-color: #e5f7e4;
+@import "variables";
 
-body {
-  background: $primary-color;
-}
+@import "fonts";
 
-h2 {
-  color: white;
-  font-size: 20px;
-}
+@import "reset";
+
+@import "mixins";
+
+@import "general";
+
+@import './blocks/header';
+@import './blocks/about';
+@import './blocks/button';
+@import './blocks/footer';
+@import './blocks/partners';
+@import './blocks/popup';
+@import './blocks/staging';
+@import './blocks/stars';

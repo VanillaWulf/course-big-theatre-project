@@ -1,0 +1,22 @@
+.header {
+  .header__nav-link {
+    text-transform: uppercase;
+
+    @include font-mixin(17px, 25px);
+  }
+
+  .header__tel {
+    @include font-mixin($line-height-param: 22px);
+  }
+
+  .header__title {
+    text-transform: uppercase;
+    @include font-mixin(64px, 87px);
+    letter-spacing: 0.1em;
+  }
+
+  .header__desc {
+    font-family: $font-family;
+    @include font-mixin(14px, 21px, 400);
+  }
+}
